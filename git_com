@@ -1,0 +1,23 @@
+フォルダーを作ったり
+ファイルを更新したりした場合のターミナルコマンド
+
+
+git add .
+git commit -m 'Farist commit'（SAVE)
+git remote add origin https://github.com/Nao-yan/php_practice.git
+URLを登録するコマンド（初回だけ）
+
+
+git push -u origin master
+コミットした内容をURLに送信（送信)
+
+
+Username for 'https://github.com/Nao-yan/php_practice.git': Nao-yan
+Password for 'https://Nao-yan@github.com/Nao-yan/php_practice.git': パスワード
+
+
+
+更新した場合
+git add .
+git commit -m 'Farist commit'（SAVE)
+git push -u origin master
